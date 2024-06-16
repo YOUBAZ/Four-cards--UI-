@@ -1,0 +1,42 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+@media (min-width:768px) {
+    section .twin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        justify-content: space-evenly;
+    }
+    section .twin2 {
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .main {
+        width: 1125px;
+        height: 615px;
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -50%);
+    }
+    header h1:first-child {
+        font-weight: 200;
+    }
+    header h1:nth-child(2) {
+        font-weight: 600;
+        color: #373447;
+    }
+    header h1:nth-child(3) {
+        font-weight: 400;
+        font-size: 15px;
+        color: #9e9da2;
+    }
+}

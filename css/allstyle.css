@@ -1,0 +1,51 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    text-align: center;
+}
+div {
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 7px 10px 2px #d7e1ed;
+}
+section .twin{
+    width: 100%;
+}
+.cardone {
+    border-top: 5px solid #49d1d1;
+    border-radius: 7px;
+    margin-right: 420px;
+    position: relative;
+}
+.pone {
+    padding-left: 30px;
+    font-weight: bold;
+    color: #4c4f58;
+}
+.ptwo {
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: smaller;
+    color: #b3b2b7;
+}
+.cardtwo {
+    border-top: 5px solid #ea5551;
+    border-radius: 7px;
+    position: relative;
+}
+.cardthree {
+    border-top: 5px solid #fcae4a;
+    border-radius: 7px;
+    position: relative;
+}
+.cardfour {
+    border-top: 5px solid #559cee;
+    border-radius: 7px;
+    position: relative;
+}
+svg {
+    position: absolute;
+    left: 70%;
+    top: 60%;
+}
